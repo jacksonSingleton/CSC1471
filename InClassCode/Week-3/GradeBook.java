@@ -12,5 +12,8 @@ public class GradeBook
      System.out.println( "Welcome to Grade Book!" );
    } // end method displayMessage
 
+   public void displayMessage2(){
+       System.out.println("This is a Test message.");
+   }
 } // end class GradeBook
 

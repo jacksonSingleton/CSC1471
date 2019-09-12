@@ -14,7 +14,7 @@ public class GradeBookTest
 
        // call myGradeBook's displayMessage method
      myGradeBook.displayMessage();
- 
+     myGradeBook.displayMessage2();
    } // end main
 } // end class GradeBookTest
 ////////////////////////////////////////////
