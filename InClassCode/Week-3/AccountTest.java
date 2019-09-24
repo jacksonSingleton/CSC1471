@@ -35,7 +35,16 @@ Account account1 = new Account( 50.00 );
       System.out.printf( "\n adding %.2f to account2 balance\n\n",depositAmount );
       account2.credit( depositAmount ); // add to account2 balance
 
+      double chargeAmount;
+      System.out.println("Enter charge amount for account1: ");
+      chargeAmount = input.nextDouble();
+      account1.debit(chargeAmount);
+
+      System.out.println("Enter charge amount for account2: ");
+      chargeAmount = input.nextDouble();
+      account2.debit(chargeAmount);
           // display balances
+          
       System.out.printf( "account1 balance: $%.2f\n", 
          account1.getBalance() );
       System.out.printf( "account2 balance: $%.2f\n", 

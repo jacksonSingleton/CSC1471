@@ -24,6 +24,15 @@ private double balance;
    } // end method credit
 
    // return the account balance
+   public void debit ( double amount )
+   {
+       if (balance > amount && amount >= 0){
+        balance -= amount; //debit the amount from the balance
+       }
+       else{
+           System.out.println("You do not have enough funds available for this transaction.");
+       }
+   }
    public double getBalance()
    {
       return balance; // value balance to calling method
