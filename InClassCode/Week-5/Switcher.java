@@ -1,6 +1,6 @@
 public class Switcher{
     public static void main(String[] args){
-        for(int i = 0; i <= 6; i++){
+        for(int i = 0; i <= 6; i+=2){
             switch(i){
                 case 0:
                     System.out.println("Hello there. ");
@@ -13,7 +13,7 @@ public class Switcher{
                     break;
                 case 3:
                     System.out.println("Terrific. ");
-                    break;
+                    break; 
                 case 4:
                     System.out.println("Beautiful day isn't it? ");
                     break;
